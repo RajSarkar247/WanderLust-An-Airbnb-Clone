@@ -5,7 +5,7 @@ const express=require("express");
 const app=express(); 
 const mongoose=require("mongoose"); 
 mongoose.set("strictPopulate", false);
-const port=8080;  
+const port=process.env.PORT||8080;  
 const dburl=process.env.ATLASDB_URL;
 
 const path=require("path"); 
