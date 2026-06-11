@@ -3,7 +3,9 @@ A full-stack web application inspired by Airbnb that allows users to list proper
 
 🚀 Features
 1.User authentication & authorization using Passport.js
+
 2.Secure session management
+
 3.Create, read, update, and delete property listings
 4.Add and manage property reviews
 5.Input validation using Joi
